@@ -1,2 +1,0 @@
-# OpenAI
- Open AI Repository
