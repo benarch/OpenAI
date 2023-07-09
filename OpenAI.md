@@ -350,7 +350,7 @@ It supports the following models:
 
 
 
-You can read more about Azure OpenAI on my other [repository](https://github.com/benarch/Azure/AzureOpenAI).
+You can read more about Azure OpenAI on my other [repository](https://github.com/benarch/Azure/blob/main/Azure_OpenAI/Azure_OpenAI.md).
 
 **References:**
 [Azure OpenAI Produt page](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
