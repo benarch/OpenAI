@@ -1,4 +1,4 @@
-#Open AI Overview
+# Open AI Overview
 This repository is meant to remove the fog and provide clearance on key concpets of OpenAI and AI topics in general.
 it contains information about the history of OpenAI. the modules and models and use cases.
 
@@ -8,8 +8,7 @@ The infromation was summarized, yet i treid to make it as much infromative possi
 Hope you will find it informative.
 
 
-##Key acronims and subjects:
-
+## Key acronyms and subjects:
 **Artificial Intelligent (AI):**
 Artificial intelligence (AI) involves creating computer systems that can perform tasks requiring human intelligence. It encompasses techniques like machine learning, natural language processing, and computer vision. AI aims to simulate human intelligence for tasks such as understanding language, recognizing images, and problem-solving. AI applications are found in healthcare, finance, transportation, and more. While true human-level intelligence is a long-term goal, AI technologies are already making a significant impact on society, driving innovation across industries.
 
@@ -44,7 +43,8 @@ GPT (Generative Pre-trained Transformer) model is an advanced language generatio
 
 
 
-**Hugging Face :hugs::**
+**Hugging Face:**
+
 [Hugging Face](https://huggingface.co/) face is an OpenSource company that focuses on NLP (Natural Language Processing) and developes various tools and libraries for working with NLP. 
 
 One of their most well-known contributions is the development of the *Transformers* library, which has become widely adopted in the NLP community.
@@ -70,7 +70,8 @@ You can learn more and see all their repositories in their [Github](https://gith
 
 
 
-**OpenAI**:
+## **OpenAI**:
+
 [OpenAI is an artificial intelligence research organization](https://openai.com/) that aims to ensure that artificial general intelligence (AGI) benefits all of humanity. 
 
 It conducts research, develops AI models and technologies, and promotes the principles of transparency, safety, and ethical use of AI. OpenAI has created advanced language models, such as GPT-3, which can generate human-like text and have a wide range of applications. 
@@ -122,10 +123,7 @@ GPT 4 is around 10 times more advanced than GPT 3.5. it has the maximum token li
 &nbsp;
 * GPT4 - Have 100 trillion parameters. Training data information wasn't disclosed formall. however, Andrew Feldman, the head of Cerebras, which is collaborating with OpenAI on the GPT model training, is quoted for saying that is the amount for the 4th version model.
 
-
 &nbsp;
-
-
 
 **Training and parameters comparison:**
 | GPT Version | Trained by | Datasets / Data sources used | Parameters count | Release Date |
@@ -134,7 +132,7 @@ GPT 4 is around 10 times more advanced than GPT 3.5. it has the maximum token li
 | GPT-2 | 40 GB of data |WebText: 40 GB of text, 8 million documents, from 45 million webpages upvoted on Reddit.| 1.5 Billion Parameters| 14.02.2019 |
 | GPT-3 | 570 GB | 570GB plaintext, 0.4 trillion tokens. Mostly [CommonCrawl](https://commoncrawl.org/), WebText, English Wikipedia, and two books corpora (Books1 and Books2).| 175 Billion Parameters| 2020 |
 | GPT-3.5 | 45 TB of data | Finetuned version of GPT3| 175 Billion Parameters| 15.03.2022 |
-| GPT-4 |  |trained data and parameters info are officialy undiscloosed yet but there are rumors that indicates those numbers| 100 Trillion Parameters| 14.03.2023 |
+| GPT-4 | undisclosed |trained data and parameters info are officialy undiscloosed yet but there are rumors that indicates those numbers| 100 Trillion Parameters| 14.03.2023 |
 
 
 
@@ -153,7 +151,7 @@ Conversations with ChatGPT begin with a user-provided prompt, and from there, th
 
 
 
-###GPT3 [Models](https://platform.openai.com/docs/models/overview):
+### GPT3 [Models](https://platform.openai.com/docs/models/overview):
 GPT-3 models can understand and generate natural language. These models were superceded by the more powerful GPT-3.5 generation models. However, the original GPT-3 base models (`davinci`, `curie`, `ada`, and `babbage`) are current the only models that are available to fine-tune.
 - **Ada**: 	Capable of very simple tasks, usually the fastest model in the GPT-3 series, and lowest cost.
 - **Babbage**: Capable of straightforward tasks, very fast, and lower cost.
@@ -201,9 +199,11 @@ The main elements of a prompt are:
 
 
 Example Prompt:
-        <span style='color: blue;'>Translate this text to Spanish: </span>
-        <span style='color: green;'>text: </span><span style='color: purple;'>Hello world! </span>
-        <span style='color: orange;'>Response: Hola mundo! </span>
+
+<span style='color: blue;'>Translate this text to Spanish: </span>
+<span style='color: green;'>text: </span><span style='color: purple;'>Hello world! </span>
+
+<span style='color: orange;'>Response: Hola mundo! </span>
 
 
 While using prompts, there are many types of behaviours you want / can include in your prompt like:
@@ -317,8 +317,9 @@ or
 
 You can calcaulate the expected token counts based on your prompt on this [Tokenizer](https://platform.openai.com/tokenizer) which is a **Tokens calauclator**.
 
----
+&nbsp;
 
+---
 
 ![Alt text][id4]
 
