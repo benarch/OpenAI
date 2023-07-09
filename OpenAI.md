@@ -1,4 +1,5 @@
 #Open AI Overview
+
 This repository is meant to remove the fog and provide clearance on key concpets of OpenAI and AI topics in general.
 it contains information about the history of OpenAI. the modules and models and use cases.
 
