@@ -204,12 +204,6 @@ Example Prompt:
 
 <span style='color: orange;'>Response: Hola mundo! </span>
 
-<span style='color: blue;'>Instructions</span>, <span style='color: green;'>Context</span>, <span style='color: purple;'>Input data</span>, <span style='color: orange;'>Output indicator</span>
-Example Prompt:
-<span style='color: blue;'>Translate this text to Spanish: </span>
-<span style='color: green;'>text: </span><span style='color: purple;'>Hello world! </span>
-<span style='color: orange;'>Response: Hola mundo! </span>
-
 
 While using prompts, there are many types of behaviors you want / can include in your prompt, like:
 
